@@ -5,8 +5,8 @@ original_str = "The quick brown rhino jumped over the extremely lazy fox"
 word = original_str.split(" ")
 print(word)
 
-num_words_list = []
+num_words_list = []#empty list
 for i in word:
-    num_words_list.append(len(i))
+    num_words_list.append(len(i))#adding the length of each word to the list
 
 print(num_words_list)
