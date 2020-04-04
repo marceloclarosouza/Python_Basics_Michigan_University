@@ -5,7 +5,7 @@ week_temps_f = "75.1,77.7,83.2,82.5,81.0,79.5,85.7"
 data = week_temps_f.split(",")
 print(data)
 
-data_int = [float(i) for i in data]
+data_int = [float(i) for i in data]#convert the string data in float
 print(data_int)
 
 cont = 0
