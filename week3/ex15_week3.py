@@ -7,6 +7,6 @@ print(text)
 print(text3)
 
 if text2 == text3:
-    print("This is palindrome")
+    print("This is a palindrome")
 else:
     print("This is not a palidrome")
