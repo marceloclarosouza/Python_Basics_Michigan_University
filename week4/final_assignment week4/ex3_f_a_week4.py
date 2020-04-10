@@ -3,14 +3,11 @@ stopwords = ['to', 'a', 'for', 'by', 'an', 'am', 'the', 'so', 'it', 'and', 'The'
 sent = "The water earth and air are vital"
 sent_split = sent.split()
 print(sent_split)
-stopwords2 = []
 strings = []
 acro = ""
 
 for i in sent_split:
-    if i in stopwords:
-        stopwords2.append(i)
-    else:
+    if not i in stopwords:
         strings.append(i[0:2])
 
 print(strings)
