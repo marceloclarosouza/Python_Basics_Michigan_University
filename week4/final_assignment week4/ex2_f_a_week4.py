@@ -4,14 +4,11 @@ org = "The organization for health, safety, and education"
 org2 = org.split()
 print(org2)
 list_initials = []
-stopwords2 = []
 acro = ""
 
 for i in org2:
-    if i in stopwords:
-        stopwords2.append(i)
-    else:
-        list_initials.append(i[0])
+    if not i in stopwords:
+       list_initials.append(i[0])
 
 print(list_initials)
 
